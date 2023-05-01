@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+header nav ul {
+    padding: 0px;
+    list-style: none;
+}
+header nav ul li a {
+    padding-left: 22px;
+    text-decoration: none;
+    color: #000;
+}
